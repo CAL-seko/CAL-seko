@@ -1,44 +1,44 @@
-# Hi, I'm SEKO 👋
+# Hi, I'm SEKO( @NQJ26641 ) 👋
 
-北海道出身、東京在住の Web Developer です。（CAL-tokyo 所属）
+北海道出身、東京在住の Web Developer です。（CAL-tokyo 所属 join:2015-05 until:even after 2026-11）
 
 ---
 
 ## 🏆 実績：Welp プロジェクト（CAL-welp Organization）
 
-スキマバイト／人材マッチングサービス **Welp** の開発に、2025年4月から継続して参画しています。
-スタッフ（ワーカー）向けアプリ・顧客（企業）向け Web・社内管理画面（WELMS）・バッチ・DB・インフラまで、サービス全体を横断して開発しています。
+スキマバイト／人材マッチングサービス **welp** の開発に、2025年2月から継続して参画しています。
+ワーカー向けアプリ・顧客（企業）向け Web・社内管理画面（WELMS）・バッチ・DB・インフラまで、サービス全体を横断して開発しています。
 
 ### 📊 数字で見る実績（2026年11月時点）
 
-| 指標 | 値 |
-| --- | --- |
-| 作成した Pull Request | **241 件**（うちマージ **238 件**） |
-| コントリビュートしたリポジトリ | **12 リポジトリ** |
-| 参画期間 | 2025年4月 〜 現在 |
+| 指標                           | 値                                  |
+| ------------------------------ | ----------------------------------- |
+| 作成した Pull Request          | **241 件**（うちマージ **238 件**） |
+| コントリビュートしたリポジトリ | **12 リポジトリ**                   |
+| 参画期間                       | 2025年4月 〜 現在                   |
 
-| リポジトリ | 領域 | PR 数 | 期間 |
-| --- | --- | ---: | --- |
-| Welp-cs-welms-Web | 社内管理画面（Laravel） | 72 | 2026/01 〜 |
-| Welp-client-Web-Laravel | 顧客向け Web（Laravel 刷新版） | 51 | 2026/05 〜 |
-| Welp-staff-Web-Laravel | スタッフ向け API / Web（Laravel 刷新版） | 46 | 2026/05 〜 |
-| Welp-client-Web | 顧客向け Web（旧版） | 21 | 2026/01 〜 2026/03 |
-| Welp-staff-Android-kotlin | スタッフ向け Android アプリ | 17 | 2025/04 〜 |
-| Welp-staff-Web | スタッフ向け API（旧版） | 12 | 2026/02 〜 |
-| Welp-staff-Flutter-Protype | スタッフ向けアプリ（Flutter 刷新版） | 6 | 2026/03 〜 |
-| Welp-client-Android | 顧客向け Android アプリ | 5 | 2025/04 〜 |
-| Welp-DB | データベース | 4 | 2026/05 〜 |
-| Welp-Infra | インフラ（スケジュールトリガー等） | 3 | 2026/08 〜 |
-| Welp-client-iOS | 顧客向け iOS アプリ | 3 | 2025/04 |
-| Welp-staff-iOS | スタッフ向け iOS アプリ | 1 | 2026/01 |
+| リポジトリ                 | 領域                                     | PR 数 | 期間               |
+| -------------------------- | ---------------------------------------- | ----: | ------------------ |
+| cs-welms-Web               | 社内管理画面（Laravel）                  |    72 | 2026/01 〜         |
+| client-Web-Laravel         | 顧客向け Web（Laravel 刷新版）           |    51 | 2026/05 〜         |
+| staff-Web-Laravel          | ワーカー向け API / Web（Laravel 刷新版） |    46 | 2026/05 〜         |
+| staff-Android-kotlin       | ワーカー向け Android アプリ              |    17 | 2025/04 〜         |
+| staff-Web                  | ワーカー向け API（旧版）                 |    12 | 2026/02 〜         |
+| client-Web                 | 顧客向け Web（旧版）                     |    21 | 2026/01 〜 2026/03 |
+| staff-Flutter-Protype      | ワーカー向けアプリ（Flutter 刷新版）     |     6 | 2026/03 〜         |
+| client-Android             | 顧客向け Android アプリ                  |     5 | 2025/04 〜         |
+| DB                         | データベース                             |     4 | 2026/05 〜         |
+| Infra                      | インフラ（スケジュールトリガー等）       |     3 | 2026/08 〜         |
+| client-iOS                 | 顧客向け iOS アプリ                      |     3 | 2025/04            |
+| staff-iOS                  | ワーカー向け iOS アプリ                  |     1 | 2026/01            |
 
 ### 🛠 主な取り組み
 
 #### 1. システム刷新（リプレイス）の推進
-- 旧システムから **Laravel ベースの新アーキテクチャ** への刷新を、顧客 Web・スタッフ API・管理画面の 3 系統で推進
+- 旧システムから **Laravel ベースの新アーキテクチャ** への刷新を、顧客 Web・ワーカー API・管理画面の 3 系統で推進
 - **SQL Server のストアドプロシージャを Laravel Eloquent モデルへ移植**し、ビジネスロジックをアプリケーション層へ集約
 - Laravel 13 対応を見据えた Eloquent モデル定義の整備、PHP 8.5 対応
-- **SQL Server → MySQL へのデータベース移行**を顧客 Web・スタッフ API・管理画面の全系統で実施
+- **SQL Server → MySQL へのデータベース移行**を顧客 Web・ワーカー API・管理画面の全系統で実施
   - SQL 方言・PDO 挙動・大文字小文字・タイムゾーン差異の吸収、採番競合や排他制御への対応
   - データ移行ツールの開発とバッチ API 化
 - 刷新版 **v1.1.0（2026-11-06）** のリリースを 3 系統同時に実施
@@ -52,7 +52,7 @@
 - **会員登録・認証**：SMS／メール OTP 認証、eKYC、電話番号＋生年月日ログイン、得意先アカウントのロール・権限、代理ログイン
 - **提携学校（専門学校）**：学生向け登録フォーム、学校別のアプリ DL 計測・動的 QR
 - **KPI・分析**：ストアデータ取込、日次／月次集計、顧客別集計、バッジ指標の分布・閾値シミュレータ、CS 稼働表・CS 業務集計、CS レポートの過去時点再現
-- **操作履歴**：顧客・スタッフ・管理者の操作履歴記録と閲覧画面
+- **操作履歴**：顧客・ワーカー・管理者の操作履歴記録と閲覧画面
 
 #### 3. バッチ・自動化
 - 確定処理の自動化バッチ（営業日判定対応）、就業確定リマインド、未読チャット通知、稼働表確定、未応募ワーカー自動削除などの定期バッチを実装（スケジュールトリガーのインフラ設定含む）
@@ -72,17 +72,18 @@
 
 #### 6. モバイルアプリ
 - Android（Kotlin）：SMS 本人認証、全国解放対応、在留資格者向け対応、Google Play 審査対応（ストレージ権限削除）、targetSdk 更新
-- Flutter：マップ検索、就業レビュー画面、しごと予定チャット、経路表示
 - iOS：表示修正・キャンセル対応
+- Flutter：マップ検索、就業レビュー画面、しごと予定チャット、経路表示
 
 ### 💻 技術スタック
 
-| 分類 | 技術 |
-| --- | --- |
-| Backend | PHP 8.x, Laravel, Laravel Octane, FrankenPHP, Eloquent |
-| Frontend | Blade, JavaScript, Tabler |
-| Mobile | Kotlin (Android), Flutter, Swift (iOS) |
-| Database | MySQL / MariaDB, Microsoft SQL Server（MySQL へ移行） |
-| Testing / Quality | Pest（Browser Testing 含む）, Larastan |
-| Infra | AWS (S3, CloudFront, CloudWatch, WAF), Docker |
-| Tools | GitHub, Laravel Boost, Claude Code |
+| 分類              | 技術                                                   |
+| ----------------- | ------------------------------------------------------ |
+| Backend           | PHP 8.x, Laravel, Laravel Octane, FrankenPHP, Eloquent |
+| Frontend          | Blade, JavaScript, Tabler                              |
+| Mobile            | Kotlin (Android), Flutter, Swift (iOS)                 |
+| Database          | MySQL / MariaDB, Microsoft SQL Server（MySQL へ移行）  |
+| Testing / Quality | Pest（Browser Testing 含む）, Larastan                 |
+| Infra             | AWS (S3, CloudFront, CloudWatch, WAF), Docker          |
+| Tools             | GitHub, Laravel Boost                                  |
+| AI Tools          | Claude Code, Codex                                     |
